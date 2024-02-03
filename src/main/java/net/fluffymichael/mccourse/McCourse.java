@@ -22,6 +22,7 @@ import org.slf4j.Logger;
 public class McCourse
 {
     // Define mod id in a common place for everything to reference
+    //has to be lowercase!
     public static final String MODID = "mccourse";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
