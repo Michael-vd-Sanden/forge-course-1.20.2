@@ -1,6 +1,8 @@
 package net.fluffymichael.mccourse;
 
 import com.mojang.logging.LogUtils;
+import net.fluffymichael.mccourse.block.ModBlocks;
+import net.fluffymichael.mccourse.item.ModCreativeModeTabs;
 import net.fluffymichael.mccourse.item.ModItems;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -34,7 +36,11 @@ public class McCourse
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
 
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
@@ -57,11 +63,19 @@ public class McCourse
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {//Add an item to the creative tab
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) //an existing tab
+        /*if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) //an existing tab
         {
             event.accept(ModItems.ALEXANDRITE);
             event.accept(ModItems.RAW_ALEXANDRITE);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS)
+        {
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.ALEXANDRITE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
+        }*/
     }
 
     @SubscribeEvent
