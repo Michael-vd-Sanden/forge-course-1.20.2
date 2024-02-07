@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern":
+  [
+    "  C",
+    "BC ",
+    "AB "
+  ],
+  "key":
+  {
+    "A":
+    {
+      "item": "mccourse:alexandrite"
+    },
+    "B":
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    "C":
+    {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result":
+  {
+    "item": "mccourse:metal_detector"
+  }
+}

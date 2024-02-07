@@ -1,12 +1,17 @@
 {
   "item.mccourse.alexandrite": "Alexandrite",
   "item.mccourse.raw_alexandrite": "Raw Alexandrite",
+  "item.mccourse.metal_detector": "Metal Detector",
+  "item.mccourse.kohlrabi": "Kohlrabi",
 
   "block.mccourse.alexandrite_block": "Block of Alexandrite",
   "block.mccourse.raw_alexandrite_block": "Block of Raw Alexandrite",
   "block.mccourse.alexandrite_ore": "Alexandrite Ore",
   "block.mccourse.deepslate_alexandrite_ore": "Deepslate Alexandrite Ore",
+  "block.mccourse.sound_block": "Sound Block",
 
   "creativetab.course_item_tab": "Course Items",
-  "creativetab.course_block_tab": "Course Blocks"
+  "creativetab.course_block_tab": "Course Blocks",
+
+  "item.mccourse.metal_detector.no_valuables": "No valuables found."
 }

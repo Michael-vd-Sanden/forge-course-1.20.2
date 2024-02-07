@@ -30,7 +30,7 @@ public class McCourse
     // Define mod id in a common place for everything to reference
     //has to be lowercase!
     public static final String MODID = "mccourse";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public McCourse()
     {
