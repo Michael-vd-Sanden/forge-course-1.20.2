@@ -1,0 +1,9 @@
+{
+  "values": [
+    "mccourse:alexandrite_ore",
+    "mccourse:deepslate_alexandrite_ore",
+    "#forge:ores/iron",
+    "#forge:ores/copper",
+    "#forge:ores/gold"
+  ]
+}

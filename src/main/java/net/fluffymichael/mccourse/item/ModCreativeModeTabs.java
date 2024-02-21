@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_ALEXANDRITE.get());
                         output.accept(ModItems.METAL_DETECTOR.get());
                         output.accept(ModItems.KOHLRABI.get());
+                        output.accept(ModItems.PEAT_BRICK.get());
                     })).build());
 
     public static final RegistryObject<CreativeModeTab> COURSE_BLOCK_TAB = CREATIVE_MODE_TABS.register("course_block_tab",
