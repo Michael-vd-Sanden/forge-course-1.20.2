@@ -3,16 +3,15 @@
   "category": "misc",
   "key": {
     "#": {
-      "item": "mccourse:raw_alexandrite"
+      "item": "mccourse:alexandrite_block"
     }
   },
   "pattern": [
-    "###",
-    "###",
     "###"
   ],
   "result": {
-    "item": "mccourse:raw_alexandrite_block"
+    "count": 6,
+    "item": "mccourse:alexandrite_slab"
   },
   "show_notification": true
 }

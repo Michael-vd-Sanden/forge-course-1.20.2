@@ -2,17 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "mccourse:raw_alexandrite"
+    "A": {
+      "item": "mccourse:alexandrite_block"
     }
   },
   "pattern": [
-    "###",
-    "###",
-    "###"
+    "A  ",
+    "AA ",
+    "AAA"
   ],
   "result": {
-    "item": "mccourse:raw_alexandrite_block"
+    "count": 4,
+    "item": "mccourse:alexandrite_stairs"
   },
   "show_notification": true
 }
